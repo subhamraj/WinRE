@@ -14,7 +14,7 @@ function scroller() {
 	
 	scroll.animate({
 		'top' : [topAdj, 'linear'] 
-	}, 8000, function(){
+	}, 15000, function(){
 		scroll.css('top', 80); //resets the top position of the Ul for the next cycle
 		scroller(); // Recalls the animation cycle to begin.
 	});}

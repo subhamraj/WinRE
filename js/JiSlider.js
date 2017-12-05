@@ -100,8 +100,8 @@
 		var setting = $.extend({
 			auto:true,
 			start: 1,
-			time: 600,
-			stay: 3000,
+			time: 2000,
+			stay: 5000,
 			controller: true,
 			easing: 'ease',
 			color: '#fff',
